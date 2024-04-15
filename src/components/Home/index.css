@@ -1,0 +1,94 @@
+/* Write your CSS code here */
+.homeContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.heeading {
+  color: #1e293b;
+  text-align: center;
+}
+.heeadinglarge {
+  display: none;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bannerHomeImg {
+  width: 50vw;
+}
+.paraEl {
+  color: #64748b;
+  text-align: center;
+}
+.shopNowButton {
+  border: 0;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  background-color: #0b69ff;
+}
+.homeContainerLoarge {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  /* Write your CSS code here */
+  .homeContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+  }
+  .heeading {
+    color: #1e293b;
+
+    display: none;
+  }
+  .heeadinglarge {
+    display: flex;
+    text-align: start;
+    align-self: flex-start;
+  }
+  .contentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .bannerHomeImg {
+    width: 35vw;
+    margin: 50px;
+    order: 3;
+  }
+  .paraEl {
+    color: #64748b;
+    text-align: start;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .shopNowButton {
+    border: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    background-color: #0b69ff;
+    align-self: flex-start;
+  }
+  .homeContainerLoarge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+}

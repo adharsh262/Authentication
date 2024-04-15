@@ -1,0 +1,122 @@
+/* Write your CSS code here */
+.navLogo {
+  width: 80px;
+  margin: 10px;
+}
+.navLogo1 {
+  display: none;
+}
+.nav-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.unorderedListsmall {
+  background-color: #e6f6ff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.unorderedListLarge {
+  display: none;
+}
+.nav-imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.navLogout {
+  width: 30px;
+}
+.logoutButton {
+  border: 0;
+  background-color: transparent;
+}
+.logoutButton1 {
+  display: none;
+}
+.navLogoitems {
+  width: 30px;
+}
+
+@media (min-width: 768px) {
+  .navLogo1 {
+    width: 120px;
+    margin: 10px;
+    display: flex;
+  }
+  .navLogo {
+    display: none;
+  }
+  .nav-Container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 20px;
+  }
+  .unorderedListsmall {
+    background-color: #e6f6ff;
+    padding: 5px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .unorderedListLarge {
+    display: flex;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .nav-imgContainer {
+    display: none;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .navLogout {
+    width: 30px;
+  }
+  .logoutButton1 {
+    border: 0;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0b69ff;
+    display: flex;
+  }
+  .logoutButton {
+    display: none;
+  }
+  .navLogoitems {
+    width: 30px;
+  }
+  .nav-link {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #64748b;
+  }
+  .listContainerLarge {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+  }
+}
